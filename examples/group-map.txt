@@ -1,0 +1,12 @@
+# 格式：发行组小写名=片源版本[!]
+vcb-studio=BluRay-Rip!
+moozzi2=BluRay-Rip!
+mawen1250=BluRay-Rip!
+mai=BluRay-Rip!
+ye=BluRay-Rip!
+acgnation=BluRay-Rip!
+mysilu=BluRay-Rip!
+lolihouse=Web-Rip
+sakurato=Web-Rip
+dynamis one=Web-Rip
+ani=Web-Rip

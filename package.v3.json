@@ -1,0 +1,19 @@
+{
+  "FfprobeRename": {
+    "name": "FFprobe命名增强",
+    "description": "按二级分类选择命名模板；用 ffprobe 读取分辨率、编码、位深、动态范围、音频，生成 ffprobe.out 等变量",
+    "labels": "整理",
+    "version": "2.1.0",
+    "icon": "https://raw.githubusercontent.com/Plantforlife/MoviePilot-Plugins/main/icons/ffproberename.png",
+    "author": "Plantforlife",
+    "level": 1,
+    "system_version": ">=3.1.4",
+    "history": {
+      "v2.1.0": "DTS:X 不再单独标注，归入 DTS-HD MA；新增 DVD-Rip / HDTV-Rip 片源，文件名写明的片源优先于 MP 从上层目录解析的值；模板加入分段（-CD1 / -Part1，只认带编号的分段）；首次公开发布，补齐使用文档、示例、图标、许可证和自动检查",
+      "v2.0.0": "插件 ID 改为 FfprobeRename；按二级分类选择模板并整串替换 MP 命名；变量收进 ffprobe 命名空间并按分类拼出 ffprobe.out；DTS 家族写成 DTS / DTS-HD HRA / DTS-HD MA / DTS:X；未注明 Remux 的蓝光写 BluRay-Rip、原盘写 BluRay；8bit 不写；字幕按同名视频探测",
+      "v1.1.0": "按上游 README 示例修正：文件名补编码位深、多音轨合并、杜比视界细分版本、新增 ffSub 字幕变量、联合发布组逐个统一拼写",
+      "v1.0.0": "初始版本：ffprobe 读取技术参数并新增模板变量"
+    },
+    "release": true
+  }
+}

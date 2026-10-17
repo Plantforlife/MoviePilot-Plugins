@@ -1,0 +1,30 @@
+name: 问题反馈
+description: 命名结果、安装或配置异常
+body:
+  - type: markdown
+    attributes:
+      value: 请使用脱敏示例，不要提交 Token、API Key、账号和完整私人配置。
+  - type: input
+    id: versions
+    attributes:
+      label: MP / 插件版本与部署方式
+      placeholder: MP 3.1.4 / 插件 2.1.0 / Docker Linux
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤、脱敏文件名及对应分类规则
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 实际结果与预期结果
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 脱敏日志 / 精简 ffprobe 信息
+      render: text

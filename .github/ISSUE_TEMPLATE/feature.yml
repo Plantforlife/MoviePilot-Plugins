@@ -1,0 +1,9 @@
+name: 功能建议
+description: 说明使用场景与期望行为
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 使用场景、期望行为和脱敏示例
+    validations:
+      required: true

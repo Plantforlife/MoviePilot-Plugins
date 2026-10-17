@@ -1,0 +1,51 @@
+# 每行一个发行组（写规范拼写），别名写成 别名=规范名。不区分大小写，@ 与 & 视为同一个符号。
+Acgnation
+AI-Raws
+Airota&VCB-Studio
+CTRLWEB
+cXcY&FRDS
+DreamHD
+Dynamis One
+FGT
+GPTHD
+Haruhana
+H-Enc
+LP-Raws
+LPSub
+LoliHouse
+MAI
+mawen1250
+Moozzi2
+Mysilu
+Nekomoe kissaten&LoliHouse
+Nekomoe kissaten&VCB-Studio
+Prejudice-Studio
+UH
+VCB-Studio
+Xiaomi
+YE
+ZeroTV
+Tsundere
+修罗影视
+路基艾尔-Raws
+老K
+Xcat
+subbers
+xlys=修罗影视
+BlackTV
+ParkHD
+LelveTV
+playWEB
+TeamSyndicate
+Lieqiwang
+PanWEB
+DVT
+QTS
+Curly
+WiLDCAT
+ALT
+MOMOHD
+幻月字幕组
+NUMTV
+BestWEB
+Vampire
