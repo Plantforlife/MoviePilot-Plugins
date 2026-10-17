@@ -51,6 +51,7 @@ def test_cache_rechecks_replaced_file(tmp_path, monkeypatch):
     monkeypatch.setattr(probe, 'run_ffprobe', run)
     plugin = FfprobeRename()
     plugin.init_plugin({'enabled': False})
+    monkeypatch.setattr(plugin, '_ffprobe_available', lambda: True)
     plugin._probe_fields(media)
     plugin._probe_fields(media)
     assert len(calls) == 1
